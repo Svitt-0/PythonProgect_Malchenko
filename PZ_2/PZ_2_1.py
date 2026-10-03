@@ -11,4 +11,3 @@ try:
 
 except ValueError:
     print("Нужно ввести цифрами")
-
