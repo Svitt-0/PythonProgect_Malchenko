@@ -10,4 +10,4 @@ try:
     print("Произведение:", a * b * c)
 
 except ValueError:
-    print("Нужно ввести цифрами")
+    print("Нужно ввести    цифрами")
