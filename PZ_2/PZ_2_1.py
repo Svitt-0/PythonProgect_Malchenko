@@ -7,4 +7,4 @@ try:
     print("Сумма:", a + b + c)
     print("Произведение:", a * b * c)
 except ValueError:
-    print("Нужно ввести    цифрами")
+    print("Нужно ввести цифрами")
