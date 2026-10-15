@@ -9,4 +9,4 @@ a = number // 100
 b = number // 10 % 10
 c = number % 10
 print("Сумма:", a + b + c)
-print("Произведение:", a * b * c)
+print("Произведение:", a *  b * c)
