@@ -1,19 +1,11 @@
-a = int(input("Введите число:"))
-b = int(input("Введите число:"))
-c = int(input("Введите число:"))
-d = int(input("Введите число:"))
 summa = 0
-proizved = 0
-if a < 0:
-    summa += 1
-    proizved += a
-if b < 0:
-    summa += 1
-    proizved += b
-if c < 0:
-    summa += 1
-    proizved += c
-if d < 0:
-    summa += 1
-    proizved += d
-print(summa, proizved)
+kolvo = 0
+i = 1
+while i <= 4:
+    num = int(input("Введите число: "))
+    if num < 0:
+        summa += num
+        kolvo += 1
+    i += 1
+print("Сумма отрицательных:", summa)
+print("Количество отрицательных:", kolvo)

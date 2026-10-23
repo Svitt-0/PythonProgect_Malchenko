@@ -1,9 +1,9 @@
-a = int(input("Введите число"))
-S = 0
+n = int(input("Введите n: "))
+summa = 0
 fact = 1
 i = 1
-while i <= a:
-    factorial = fact * i
-    S = S + factorial
-    i = i + 1
-print(S)
+while i <= n:
+    fact *= i
+    summa += fact
+    i += 1
+print("Сумма факториалов:", summa)
