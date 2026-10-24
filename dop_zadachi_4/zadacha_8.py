@@ -5,5 +5,4 @@ i = a
 while i <= b:
     summa += i
     i += 1
-
 print("Сумма чисел от A до B:", summa)
